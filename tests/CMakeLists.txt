@@ -19,4 +19,3 @@ target_include_directories(${TARGET_NAME}
 
 add_test(
     NAME ${TARGET_NAME}
-    COMMAND ${TARGET_NAME} -o report.xml -r junit)
